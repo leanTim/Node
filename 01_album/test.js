@@ -89,6 +89,7 @@ router.get("/", (req, res, next) => {
     //console.log(files)
     //files.pic.path 结果为包含文件名的文件路径
     let oldPath = files.pic.path
+    
 
     let filename = path.parse(oldPath).base
     // console.log(filename)
